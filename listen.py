@@ -13,18 +13,15 @@ try:
     with m as source:
         r.adjust_for_ambient_noise(source)
         while True:
-            print("Command: ")
+            print("\nSay Command: ")
             audio = r.listen(source)
             print("Recognizing...")
             try:
                 value = r.recognize_google(audio)
-                if str is bytes:
-                    command = value.encode("utf-8")
-                else:
-                    command = value
+                command = value
+
                 print('You said -> ' + command) 
                 execute(command)
-
 
             except sr.UnknownValueError:
                 print("Oops! Didn't catch that")
