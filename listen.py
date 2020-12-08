@@ -3,6 +3,11 @@ import speech_recognition as sr
 r = sr.Recognizer()
 m = sr.Microphone()
 
+def execute(command) : 
+    if command == 'exit':
+        print('\nExiting Application.. ')
+        exit()
+
 try:
     print("A moment of silence, please...")
     with m as source:
@@ -17,7 +22,9 @@ try:
                     command = value.encode("utf-8")
                 else:
                     command = value
-                print(command) 
+                print('You said -> ' + command) 
+                execute(command)
+
 
             except sr.UnknownValueError:
                 print("Oops! Didn't catch that")
