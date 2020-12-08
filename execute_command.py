@@ -1,4 +1,6 @@
 def execute_fun(command) : 
-    if command == 'exit':
+    keyword = command.split()[0]
+    
+    if keyword == 'exit':
         print('\nExiting Application.. ')
         exit()
