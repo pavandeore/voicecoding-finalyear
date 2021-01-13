@@ -1,0 +1,53 @@
+
+
+                            """"""""AI Based Voice Coding""""""""
+
+
+You can simply click start recording button and say your commands
+
+The command you said will be reflected in the command box above
+
+
+Note:
+    Google speech recognizer is not accurate so, In case of any mistakes in your command ,Just use undo command
+
+
+System Commands included :
+    exit                            - To close the application
+    stop recording                  - To stop recording commands
+    save file                       - To save a file
+    open file                       - To open a file
+    create new file                 - to create a new file
+    run program                     - To run the program
+    undo                            - undo
+    go to line number #3            - to move cursor to particular line number
+    tab                             - to add 4 spaces
+    next line                       - to move cursor to new line
+    space                           - to add space
+    delete #text                    - to delete a text or string
+    cursor move right
+    cursor move left
+    cursor move up
+    cursor move down
+
+Commands To define a function:
+
+        create function #functionname    -to define a function
+        call function #functionname      -to call the defined function
+
+    Default Functions
+        create function add two numbers                call function add two numbers
+        create function subtract two numbers           call function subtract two numbers
+        create function multiply two numbers           call function multiply two numbers
+        create function divide two numbers             call function divide two numbers
+
+
+Other Commands:
+    create while loop
+    create variable #x
+    set number
+    set string
+    set #value
+    print variable #x
+    print #text
+
