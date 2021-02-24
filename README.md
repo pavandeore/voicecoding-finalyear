@@ -8,7 +8,7 @@ You can install library using -> <code> pip3 install [library_name]</code>
 
 
 Required Libraries
-
+<hr/>
 tkinter<br/>
 PyAudio<br/>
 pynput<br/>
