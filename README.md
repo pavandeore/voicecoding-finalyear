@@ -9,5 +9,5 @@ You can install library using -> <code> pip3 install [library_name]</code>
 
 Example
 
-<code>pip3 install pynput</code>
-<code>pip3 install PyAudio</code> Use alternative pipwin if doesn't work
+<code>pip3 install pynput</code><br/>
+<code>pip3 install PyAudio</code> Use alternative pipwin if doesn't work<br/>
