@@ -7,7 +7,9 @@ Just install required libraries if you found error
 You can install library using -> <code> pip3 install [library_name]</code>
 
 
-Example
+Required Libraries
 
-<code>pip3 install pynput</code><br/>
-<code>pip3 install PyAudio</code> Use alternative pipwin if doesn't work<br/>
+tkinter<br/>
+PyAudio<br/>
+pynput<br/>
+SpeechRecognition<br/>
